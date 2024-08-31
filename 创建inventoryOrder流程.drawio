@@ -54,6 +54,9 @@
         <mxCell id="X-7zzmUabrC834_DIzzg-8" value="没有新产品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="410" width="150" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-10" target="X-7zzmUabrC834_DIzzg-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="X-7zzmUabrC834_DIzzg-10" value="存在新产品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="420" width="150" height="80" as="geometry" />
         </mxCell>
@@ -94,16 +97,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X-7zzmUabrC834_DIzzg-31" value="&lt;div&gt;[batchAddProduct]&lt;/div&gt;创建新产品&lt;div&gt;items关联新产品&lt;div&gt;前提: items已创建，&lt;/div&gt;&lt;div&gt;product已创建&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="700" width="120" height="100" as="geometry" />
+          <mxGeometry x="475" y="672" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="X-7zzmUabrC834_DIzzg-32" value="&lt;div&gt;[orderEdit receive]&lt;/div&gt;receive order&lt;div&gt;前提: 所有产品已创建&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="475" y="832" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X-7zzmUabrC834_DIzzg-33" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X-7zzmUabrC834_DIzzg-35" value="&lt;div&gt;[orderEdit receive]&lt;/div&gt;receive order&lt;div&gt;前提: 所有产品已创建&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="885" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-37" target="X-7zzmUabrC834_DIzzg-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-37" value="&lt;div&gt;[orderEdit draft]&lt;/div&gt;创建draft order&lt;br&gt;创建order items&lt;div&gt;items关联已存在产品&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="557" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
