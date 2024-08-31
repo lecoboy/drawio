@@ -1,9 +1,110 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="第 1 页" id="uum-yk-0QnSFXLlj6PAo">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X-7zzmUabrC834_DIzzg-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-1" target="X-7zzmUabrC834_DIzzg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="160" />
+              <mxPoint x="205" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-1" target="X-7zzmUabrC834_DIzzg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="160" />
+              <mxPoint x="625" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-1" value="创建order并receive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-2" target="X-7zzmUabrC834_DIzzg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-2" value="创建draft order" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-3" target="X-7zzmUabrC834_DIzzg-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="320" />
+              <mxPoint x="945" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-3" target="X-7zzmUabrC834_DIzzg-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="320" />
+              <mxPoint x="535" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-3" value="创建receive order" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-8" target="X-7zzmUabrC834_DIzzg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-8" value="没有新产品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="410" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-10" value="存在新产品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="420" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-12" target="X-7zzmUabrC834_DIzzg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-12" value="没有新产品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-13" target="X-7zzmUabrC834_DIzzg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-13" value="存在新产品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-16" value="receive order" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-18" target="X-7zzmUabrC834_DIzzg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-18" value="&lt;div&gt;[batchAddProduct]&lt;/div&gt;创建新产品&lt;div&gt;items关联新产品&lt;div&gt;前提: items已创建，&lt;/div&gt;&lt;div&gt;product已创建&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="560" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-20" value="&lt;div&gt;[orderEdit receive]&lt;/div&gt;receive order&lt;div&gt;前提: 所有产品已创建&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-22" target="X-7zzmUabrC834_DIzzg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-22" target="X-7zzmUabrC834_DIzzg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-22" value="&lt;div&gt;[orderEdit draft]&lt;/div&gt;创建draft order&lt;br&gt;创建order items&lt;div&gt;items关联已存在产品&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X-7zzmUabrC834_DIzzg-31" target="X-7zzmUabrC834_DIzzg-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-31" value="&lt;div&gt;[batchAddProduct]&lt;/div&gt;创建新产品&lt;div&gt;items关联新产品&lt;div&gt;前提: items已创建，&lt;/div&gt;&lt;div&gt;product已创建&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="700" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-32" value="&lt;div&gt;[orderEdit receive]&lt;/div&gt;receive order&lt;div&gt;前提: 所有产品已创建&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-33" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-7zzmUabrC834_DIzzg-35" value="&lt;div&gt;[orderEdit receive]&lt;/div&gt;receive order&lt;div&gt;前提: 所有产品已创建&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
