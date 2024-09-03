@@ -79,7 +79,7 @@
         <mxCell id="iKctfQHVxDv2bTsrrXNo-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-27" target="iKctfQHVxDv2bTsrrXNo-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKctfQHVxDv2bTsrrXNo-27" value="$updateProducts根据code查询结果填入id、tid" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="iKctfQHVxDv2bTsrrXNo-27" value="$updateProducts根据code查询结果填入tid、uid" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iKctfQHVxDv2bTsrrXNo-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-29" target="iKctfQHVxDv2bTsrrXNo-31">
@@ -91,7 +91,7 @@
         <mxCell id="iKctfQHVxDv2bTsrrXNo-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-31" target="iKctfQHVxDv2bTsrrXNo-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKctfQHVxDv2bTsrrXNo-31" value="通过$updateProducts更新产品" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="iKctfQHVxDv2bTsrrXNo-31" value="通过$updateProducts更新产品&lt;font color=&quot;#ff0000&quot;&gt;(循环更新有效率问题)&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iKctfQHVxDv2bTsrrXNo-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-33" target="iKctfQHVxDv2bTsrrXNo-35">
@@ -121,7 +121,7 @@
         <mxCell id="iKctfQHVxDv2bTsrrXNo-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-41" target="iKctfQHVxDv2bTsrrXNo-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKctfQHVxDv2bTsrrXNo-41" value="批量创建store_product" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="iKctfQHVxDv2bTsrrXNo-41" value="批量创建store_product&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(not exist)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iKctfQHVxDv2bTsrrXNo-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-43" target="iKctfQHVxDv2bTsrrXNo-45">
@@ -139,7 +139,7 @@
         <mxCell id="iKctfQHVxDv2bTsrrXNo-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-47" target="iKctfQHVxDv2bTsrrXNo-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKctfQHVxDv2bTsrrXNo-47" value="为每一个product批量创建一个默认库存store_inventories" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="iKctfQHVxDv2bTsrrXNo-47" value="&lt;strike&gt;为每一个product批量创建一个默认库存store_inventories()&lt;/strike&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iKctfQHVxDv2bTsrrXNo-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="iKctfQHVxDv2bTsrrXNo-49" target="iKctfQHVxDv2bTsrrXNo-51">
