@@ -1,97 +1,97 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="第 1 页" id="0rya04AlD4iplE1lRASK">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-1" target="g20DeiMG0Ob2vYwDWgya-2">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-1" target="g20DeiMG0Ob2vYwDWgya-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-2" target="g20DeiMG0Ob2vYwDWgya-6">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-2" target="g20DeiMG0Ob2vYwDWgya-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-2" value="插入一条type为variant的product，保存基本信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-2" value="插入一条type为variant的product，保存基本信息" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-6" target="g20DeiMG0Ob2vYwDWgya-8">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-6" target="g20DeiMG0Ob2vYwDWgya-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-40" value="foreach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g20DeiMG0Ob2vYwDWgya-9">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-40" value="foreach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="g20DeiMG0Ob2vYwDWgya-9" vertex="1" connectable="0">
           <mxGeometry x="-0.125" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-6" target="g20DeiMG0Ob2vYwDWgya-38">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-6" target="g20DeiMG0Ob2vYwDWgya-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-6" value="遍历传入的variant_childs" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-6" value="遍历传入的variant_childs" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="795" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-8" target="g20DeiMG0Ob2vYwDWgya-11">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-8" target="g20DeiMG0Ob2vYwDWgya-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-8" value="查看attrs中所有attr_value是否已存在，存在则返回attr_value_id，不存在则创建attr_value并返回attr_value_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-8" value="查看attrs中所有attr_value是否已存在，存在则返回attr_value_id，不存在则创建attr_value并返回attr_value_id" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="785" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-11" target="g20DeiMG0Ob2vYwDWgya-13">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-11" target="g20DeiMG0Ob2vYwDWgya-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-11" value="通过attrs中的attr_id查询对应的attr_name，然后将attrs按照attr_name排序" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-11" value="通过attrs中的attr_id查询对应的attr_name，然后将attrs按照attr_name排序" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="705" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-13" target="g20DeiMG0Ob2vYwDWgya-17">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-13" target="g20DeiMG0Ob2vYwDWgya-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-13" value="通过attrs组装sale_attrs_desc:&amp;lt;name1&amp;gt;:&amp;lt;value1&amp;gt;,&amp;lt;name2&amp;gt;:&amp;lt;value2&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-13" value="通过attrs组装sale_attrs_desc:&amp;lt;name1&amp;gt;:&amp;lt;value1&amp;gt;,&amp;lt;name2&amp;gt;:&amp;lt;value2&amp;gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="625" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-17" target="g20DeiMG0Ob2vYwDWgya-19">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-17" target="g20DeiMG0Ob2vYwDWgya-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g20DeiMG0Ob2vYwDWgya-20">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="g20DeiMG0Ob2vYwDWgya-20" vertex="1" connectable="0">
           <mxGeometry x="-0.24" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-17" target="g20DeiMG0Ob2vYwDWgya-24">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-17" target="g20DeiMG0Ob2vYwDWgya-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g20DeiMG0Ob2vYwDWgya-25">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="g20DeiMG0Ob2vYwDWgya-25" vertex="1" connectable="0">
           <mxGeometry x="0.24" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-17" value="通过sale_attrs_desc查询对应的cspu是否已存在?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-17" value="通过sale_attrs_desc查询对应的cspu是否已存在?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="515" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-19" target="g20DeiMG0Ob2vYwDWgya-22">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-19" target="g20DeiMG0Ob2vYwDWgya-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-19" value="通过attr_value_id创建cspu_attr_value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-19" value="通过attr_value_id创建cspu_sale_attr" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-22" target="g20DeiMG0Ob2vYwDWgya-30">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="g20DeiMG0Ob2vYwDWgya-22" target="g20DeiMG0Ob2vYwDWgya-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-22" value="创建cspu并返回cspu_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-22" value="创建cspu并返回cspu_id" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-24" target="g20DeiMG0Ob2vYwDWgya-30">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g20DeiMG0Ob2vYwDWgya-24" target="g20DeiMG0Ob2vYwDWgya-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-24" value="返回cspu_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-24" value="返回cspu_id" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="g20DeiMG0Ob2vYwDWgya-30" target="g20DeiMG0Ob2vYwDWgya-6">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="g20DeiMG0Ob2vYwDWgya-30" target="g20DeiMG0Ob2vYwDWgya-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-30" value="通过cspu_id,code,price,cost插入一条type为variant_child的product" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-30" value="通过cspu_id,code,price,cost插入一条type为variant_child的product" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="455" y="285" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g20DeiMG0Ob2vYwDWgya-38" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g20DeiMG0Ob2vYwDWgya-38" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="910" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
