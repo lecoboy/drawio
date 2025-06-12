@@ -1,9 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="第 1 页" id="anX8CE7h0Ov8ygnu43ym">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-1" value="任务分发线程(原单线程池)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-2" value="任务提交队列(redisson阻塞队列)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-3" value="任务执行线程池(多线程池，动态分配线程执行任务)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="205" y="150" width="10" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="395" y="150" width="10" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="585" y="150" width="10" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="30" y="190" as="sourcePoint" />
+            <mxPoint x="190" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-9" value="新任务(offer)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="158" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="250" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-11" value="take" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="413.5" y="310" as="sourcePoint" />
+            <mxPoint x="573.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-13" value="submit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-15" value="动态分配线程，实际执行任务。&lt;div&gt;有空闲线程(3)时，直接执行任务。&lt;/div&gt;&lt;div&gt;无空闲线程时，加入阻塞队列(20)，等待执行。&lt;/div&gt;&lt;div&gt;阻塞队列已满，临时增加线程执行任务。&lt;/div&gt;&lt;div&gt;拒绝策略：线程已达最大线程(10)，将任务交由调用方(任务分发线程)执行。&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="600" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="630" y="380" />
+            </Array>
+            <mxPoint x="605" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-16" value="corePoolSize: 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-17" value="maximumPoolSize: 10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="95" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-18" value="workQueue:ArrayBlockingQueue(20)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="128" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-19" value="最坏的情况：当已存在30个任务都没执行完，第31个及之后的任务会在任务分发线程中堵塞。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="430" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-20" value="改动前情况：只要有一个任务执行慢了，其它任务都会堵塞。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUyPcsNhsOWJcCS9xHlg-21" value="keepAliveTime: 30s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="158" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
